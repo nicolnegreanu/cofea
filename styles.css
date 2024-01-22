@@ -1,0 +1,98 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px auto;
+    width: 960px;
+}
+h1, h2, h3 {
+    color: rgb(145, 36, 36);
+}
+ul {
+    list-style: url("images/tiny-coffee-cup.gif");
+    padding: 0px;
+}
+#sitevechi {
+    display: inline;
+}
+a:link, a:visited {
+    text-decoration:none;
+    color: rgba(165, 42, 42, 0.801);
+    font-weight: bold;
+    display: block;
+    width: 240px;
+    text-align: center;
+    padding: 10px 0px;
+}
+a:hover {
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    float: left;
+}
+nav a:link, nav a:visited {
+background-color: rgb(196, 164, 124);
+color: rgb(252, 236, 98);
+}
+nav a:hover {
+    color:black;
+}
+aside {
+    width: 280px;
+    float: right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+.photo-left {
+float: left;
+margin-right: 10px;
+}
+.photo-right {
+    float: right;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+header {
+background-image: url("images/coffee-beans.jpg");
+height: 100px;
+margin-bottom: 70px;
+}
+header h1 {
+    color: rgba(256, 256, 256, .8);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+footer {
+    margin: 40px 0;
+}
+footer nav a:link , footer nav a:visited {
+color: gray;
+text-decoration: none;
+display: block;
+width: 240px;
+text-align: center;
+background-color:  white;
+margin-bottom: 15px;
+}
+footer nav a:hover {
+    color: black;
+}
+td, th {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+table {
+    border-collapse: collapse;
+}
+/* #pharm-easy {
+    float: left;
+    margin-right: 0px;
+} */
