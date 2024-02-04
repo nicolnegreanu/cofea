@@ -74,6 +74,7 @@ header h1 {
 }
 footer {
     margin: 40px 0;
+    clear: both;
 }
 footer nav a:link , footer nav a:visited {
 color: gray;
